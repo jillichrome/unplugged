@@ -87,134 +87,212 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /**** Base Styles ---- Header & Footer ****/
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
-   header,
-   footer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-   }
+/**** Base Styles ---- Header & Footer ****/
 
-   header .content-wrapper {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-   }
+header,
+footer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+}
 
-   header .header-divider {
-     flex-flow: column;
-     align-items: center;
-   }
+header {
+ padding: 15px 0;
+}
 
-   header nav {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-flow: row wrap;
-   }
+header .content-wrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+ margin: 0;
+}
 
-   header nav ul {
-     display: flex;
-     justify-content: space-around;
-   }
+header .header-divider {
+ flex-flow: column;
+ align-items: center;
+ width: 100%;
+ height: 1px;
+ margin: 10px 0 20px 0;
+}
 
-   footer .social-icons {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-   }
+header nav {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ flex-flow: row wrap;
+ width: 60%;
+}
 
-   footer .social-icons p {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-   }
+header nav ul {
+ display: flex;
+ justify-content: space-around;
+ width: 100%;
+}
 
-   /**** Mobile Styles --- Homepage ****/
+footer {
+  flex-direction: column;
+}
 
-   .hero-area {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
-   }
+footer  .content-wrapper {
+ width: 55%;
+ margin: 50px 0;
+}
 
-   aside {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: column;
-   }
+footer .contact {
+ margin-bottom: 50px;
+}
 
-   .features {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: column;
-   }
+footer .social-icons {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
 
-   .features .features-items {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-   }
+footer .social-icons p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 
-   .features .fontawesome-icon {
+footer .copyright {
+  margin: 20px 0;
+}
 
-   }
+/**** Mobile Styles --- Homepage ****/
 
-   .features .features-item-description {
+.hero-area {
+ display: flex;
+ justify-content: center;
+ flex-flow: row wrap;
+}
 
-   }
+.hero-area h1 {
+ padding-left: 5%;
+}
 
-   .reviews {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
-   }
+aside {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: column;
+ padding-left: 5%;
+ padding-right: 5%;
+}
 
-   .reviews articles {
+aside .form input {
+ margin-bottom: 2%;
+ padding: 0 20%;
+}
 
-   }
+.features {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: column;
+}
 
- /* ======================================================================
-    About page
-    ===================================================================== */
+.features h2 {
+ margin-bottom: 10%;
+}
 
-    .mission {
-      display: flex;
-      justify-content:center;
-      align-items: center;
-      flex-flow: row wrap;
-    }
+.features article {
+ width: 63%;
+ margin: 30px 0;
+}
 
-    .contact-section {
-      display: flex;
-      justify-content:center;
-      align-items: center;
-      flex-flow: row wrap;
-    }
+.features .features-items {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: row wrap;
+}
+
+.features p {
+ margin: 0;
+}
+
+.features .fontawesome-icon {
+
+}
+
+.features .features-item-description {
+
+}
+
+.reviews {
+ display: flex;
+ justify-content: center;
+ flex-flow: row wrap;
+}
+
+.reviews h2 {
+ margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
+.reviews articles {
+
+}
+
+/* ======================================================================
+  About page
+  ===================================================================== */
+
+.mission {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-content p {
+  margin: 0;
+}
 
 /* =========================================================================
    FAQ page
    ========================================================================= */
 
-   .faq {
-     display: flex;
-     justify-content:center;
-     align-items: center;
-     flex-flow: row wrap;
-   }
+.faq {
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ flex-flow: row wrap;
+}
 
-   .faq-content {
-     display: flex;
-     justify-content:center;
-     align-items: center;
-     flex-flow: row wrap;
-   }
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
 
 
 /* ==========================================================================
