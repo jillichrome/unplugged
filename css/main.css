@@ -129,6 +129,10 @@ address {
   font-style: normal;
 }
 
+img {
+  width: 100%;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -224,7 +228,8 @@ footer .copyright {
 /**** Mobile Styles --- Homepage ****/
 
 .hero-area {
-  background-image: url('../img/hero-image.jpg');
+  background: url('img/hero-image.jpg') center no-repeat #333;
+  background-size: cover;
   color: #ffffff;
   display: flex;
   justify-content: center;
