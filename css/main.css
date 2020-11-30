@@ -629,6 +629,21 @@ input[type=button] {
   .mission-content p {
     width: 45%;
   }
+
+  .map figure {
+    padding-bottom: 125%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+  }
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
