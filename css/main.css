@@ -233,6 +233,10 @@ footer .social-icons p {
  align-items: center;
 }
 
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -336,6 +340,11 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .reviews h2 {
@@ -626,6 +635,7 @@ input[type=button] {
   footer p {
       line-height: 1.285;
   }
+  
   footer .copyright {
     width: 100%;
   }
