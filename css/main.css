@@ -362,6 +362,21 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.map figure {
+  padding-bottom: 125%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+}
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .contact-section {
   display: flex;
   justify-content:center;
@@ -631,19 +646,9 @@ input[type=button] {
   }
 
   .map figure {
-    padding-bottom: 125%;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
+    padding-bottom: 45.5%;
   }
-  .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -751,6 +756,10 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     font-size: 3em;
     width: 95%;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
