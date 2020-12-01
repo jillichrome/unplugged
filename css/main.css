@@ -423,6 +423,7 @@ input[type=button] {
   justify-content:center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .faq h2 {
@@ -531,7 +532,7 @@ input[type=button] {
   /* General styles */
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    padding: 100px 0;
   }
 
   h2 {
@@ -630,7 +631,7 @@ input[type=button] {
 
 footer .content-wrapper {
   width: 65%;
-  margin: 100px 0;
+  padding: 100px 0;
 }
 
 footer .footer-content {
@@ -650,7 +651,7 @@ footer h4 {
 }
 
 footer p {
-    line-height: 1.285;
+  line-height: 1.285;
 }
 
 footer .social-icons {
